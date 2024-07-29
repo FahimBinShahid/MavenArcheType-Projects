@@ -1,0 +1,10 @@
+mvn archetype:generate -DgroupId=com.example -DartifactId=first-app -Dversion=1.0-SNAPSHOT -Dpackage=com.example.firstapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -Dfilter=com.example:
+
+
+java -cp target/first-app-1.0-SNAPSHOT.jar com.example.firstapp.App
+
+
+java -cp first-app-1.0-SNAPSHOT.jar com.example.firstapp.App
